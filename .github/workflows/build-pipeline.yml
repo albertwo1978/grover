@@ -1,4 +1,4 @@
-name: test
+name: build-pipeline
 
 on: 
   push:
@@ -6,7 +6,7 @@ on:
       - master  
 
 jobs:
-  blah:
+  cd:
 
     runs-on: ubuntu-latest
 
