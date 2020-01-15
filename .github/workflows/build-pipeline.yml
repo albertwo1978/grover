@@ -4,7 +4,7 @@ name: build-pipeline
       - master
   pull_request:
     branches:
-      - master 
+      - master
 
 jobs:
   cd:
