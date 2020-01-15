@@ -2,9 +2,6 @@ name: build-pipeline
   push:
     branches:
       - master
-  pull_request:
-    branches:
-      - master
 
 jobs:
   cd:
